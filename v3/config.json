@@ -884,6 +884,164 @@
 				3,
 				3
 			]
+		},
+		{
+			"buy": 6500,
+			"harvest": {},
+			"id": "joja_berry",
+			"name": "Joja Berry",
+			"regrow": 4,
+			"index": 1000,
+			"seasons": [
+				"spring",
+				"summer",
+				"fall"
+			],
+			"sell": 650,
+			"stages": [
+				5,
+				5,
+				5,
+				5,
+				5
+			]
+		},
+		{
+			"buy": 600,
+			"harvest": {},
+			"id": "joja_veggie",
+			"name": "Joja Veggie",
+			"index": 1001,
+			"seasons": [
+				"spring",
+				"summer",
+				"fall"
+			],
+			"sell": 1140,
+			"stages": [
+				2,
+				3,
+				4,
+				4
+			]
+		},
+		{
+			"buy": 0,
+			"harvest": {
+				"extra_chance": 0.03,
+				"max": 4,
+				"min": 2
+			},
+			"id": "salal_berry",
+			"name": "Salal Berry",
+			"regrow": 4,
+			"index": 1002,
+			"seasons": [
+				"spring",
+				"summer"
+			],
+			"sell": 75,
+			"stages": [
+				2,
+				2,
+				3,
+				3,
+				4
+			]
+		},
+		{
+			"buy": 0,
+			"harvest": {
+				"extra_chance": 0.10,
+				"max": 3,
+				"min": 1
+			},
+			"id": "slime_berry",
+			"name": "Slime Berry",
+			"regrow": 4,
+			"index": 1003,
+			"seasons": [
+				"spring"
+			],
+			"sell": 65,
+			"stages": [
+				2,
+				3,
+				2,
+				3,
+				3
+			]
+		},
+		{
+			"buy": 0,
+			"harvest": {},
+			"id": "ancient_fiber",
+			"name": "Ancient Fiber",
+			"index": 1004,
+			"seasons": [
+				"summer"
+			],
+			"sell": 145,
+			"stages": [
+				2,
+				2,
+				2,
+				3,
+				3
+			]
+		},
+		{
+			"buy": 0,
+			"harvest": {},
+			"id": "monster_fruit",
+			"name": "Monster Fruit",
+			"index": 1005,
+			"seasons": [
+				"summer"
+			],
+			"sell": 1525,
+			"stages": [
+				3,
+				6,
+				6,
+				5,
+				5
+			]
+		},
+		{
+			"buy": 0,
+			"harvest": {},
+			"id": "monster_mushroom",
+			"name": "Monster Mushroom",
+			"index": 1006,
+			"seasons": [
+				"fall"
+			],
+			"sell": 850,
+			"stages": [
+				2,
+				2,
+				3,
+				3,
+				3
+			]
+		},
+		{
+			"buy": 0,
+			"harvest": {},
+			"id": "void_root",
+			"name": "Void Root",
+			"index": 1007,
+			"seasons": [
+				"winter"
+			],
+			"sell": 235,
+			"stages": [
+				2,
+				2,
+				2,
+				2
+			]
 		}
 	],
 	"fertilizer": [
@@ -923,6 +1081,10 @@
 	],
 	"events": {
 		"spring": [
+  			{
+    				"day": 2,
+    				"name": "Morris"
+  			},
 			{
 				"day": 4,
 				"name": "Kent"
@@ -930,6 +1092,10 @@
 			{
 				"day": 7,
 				"name": "Lewis"
+			},
+			{
+  				"day": 8,
+  				"name": "Lance"
 			},
 			{
 				"day": 10,
@@ -945,12 +1111,20 @@
 				"name": "Haley"
 			},
 			{
+  				"day": 15,
+  				"name": "Olivia"
+			},
+			{
 				"day": 18,
 				"name": "Pam"
 			},
 			{
 				"day": 20,
 				"name": "Shane"
+			},
+			{
+  				"day": 23,
+  				"name": "Andy"
 			},
 			{
 				"day": 24,
@@ -970,6 +1144,14 @@
 			{
 				"day": 4,
 				"name": "Jas"
+			},
+			{
+  				"day": 6,
+  				"name": "Martin"
+			},
+			{
+  				"day": 7,
+  				"name": "Scarlett"
 			},
 			{
 				"day": 8,
@@ -1001,6 +1183,10 @@
 				"name": "Dwarf"
 			},
 			{
+  				"day": 23,
+  				"name": "Victor"
+			},
+			{
 				"day": 24,
 				"name": "Willy"
 			},
@@ -1022,6 +1208,14 @@
 			{
 				"day": 5,
 				"name": "Elliot"
+			},
+			{
+  				"day": 7,
+  				"name": "Morgan"
+			},
+			{
+  				"day": 8,
+  				"name": "Claire"
 			},
 			{
 				"day": 11,
@@ -1056,6 +1250,10 @@
 				"day": 27,
 				"name": "Spirit's Eve",
 				"festival": true
+			},
+			{
+  				"day": 28,
+  				"name": "Susan"
 			}
 		],
 		"winter": [
@@ -1081,6 +1279,10 @@
 				"name": "Sebastian"
 			},
 			{
+  				"day": 12,
+  				"name": "Gunther"
+			},
+			{
 				"day": 14,
 				"name": "Harvey"
 			},
@@ -1104,6 +1306,10 @@
 				"name": "Wizard"
 			},
 			{
+  				"day": 19,
+  				"name": "Marlon"
+			},
+			{
 				"day": 20,
 				"name": "Evelyn"
 			},
@@ -1119,6 +1325,10 @@
 			{
 				"day": 26,
 				"name": "Clint"
+			},
+			{
+  				"day": 27,
+  				"name": "Sophia"
 			}
 		]
 	}

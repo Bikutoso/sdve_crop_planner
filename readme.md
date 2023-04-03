@@ -1,8 +1,8 @@
-# Stardew Valley Crop Planner
+# Stardew Valley Expanded Crop Planner
 
-A tool for planning crop schedules in the Stardew Valley game.
+A tool for planning crop schedules in the Stardew Valley game and Stardev Valley Expanded mod.
 
-#### **<a href="http://exnil.github.io/crop_planner/">Live version on github.io</a>**
+#### **<a href="http://bikutoso.github.io/sdve_crop_planner/">Live version on github.io</a>**
 
 <a href="https://www.reddit.com/r/StardewValley/comments/55puw1/crop_planner_v2_released_multiple_years_importing/" target="_blank">Reddit thread</a>
 
